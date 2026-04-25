@@ -1,32 +1,91 @@
-<h1 align="center">✨ Full-Stack Interview Platform ✨</h1>
+<h1 align="center"> Full-Stack Interview Platform</h1>
+<p align="center">
+A modern real-time coding interview platform with video, live code execution, and collaborative features.
+</p>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-✨ Highlights :
-
-- 🧑‍💻 VSCode-Powered Code Editor
-- 🔐 Authentication via Clerk
-- 🎥 1-on-1 Video Interview Rooms
-- 🧭 Dashboard with Live Stats
-- 🔊 Mic & Camera Toggle, Screen Sharing & Recording
-- 💬 Real-time Chat Messaging
-- ⚙️ Secure Code Execution in Isolated Environment
-- 🎯 Auto Feedback — Success / Fail based on test cases
-- 🎉 Confetti on Success + Notifications on Fail
-- 🧩 Practice Problems Page (solo coding mode)
-- 🔒 Room Locking — allows only 2 participants
-- 🧠 Background Jobs with Inngest (async tasks)
-- 🧰 REST API with Node.js & Express
-- ⚡ Data Fetching & Caching via TanStack Query
-- 🤖 CodeRabbit for PR Analysis & Code Optimization
-- 🧑‍💻 Git & GitHub Workflow (branches, PRs, merges)
-- 🚀 Deployment on Sevalla (free-tier friendly)
+<p align="center">
+  <img src="/frontend/public/screenshot-for-readme.png" alt="Demo App" width="90%" />
+</p>
 
 ---
 
-## 🧪 .env Setup
+## ✨ Overview
 
-### Backend (`/backend`)
+This platform enables **real-time technical interviews** with an integrated coding environment, video communication, and automated evaluation system.
+
+It is designed to simulate real-world interview scenarios while providing tools for both **interviewers and candidates**.
+
+---
+
+## ⚡ Key Features
+
+### 🧑‍💻 Coding & Evaluation
+- VSCode-like in-browser code editor  
+- Secure code execution in isolated environment  
+- Automatic evaluation using test cases  
+- Instant feedback: **Success / Fail**  
+- Practice problems (solo coding mode)
+
+---
+
+### 🎥 Real-Time Interview Experience
+- 1-on-1 video interview rooms  
+- Screen sharing & session recording  
+- Mic & camera controls  
+- Room locking (max 2 participants)
+
+---
+
+### 💬 Collaboration
+- Real-time chat messaging  
+- Live interaction during coding sessions  
+
+---
+
+### 📊 Dashboard & UX
+- Dashboard with live stats  
+- Confetti animation on success 🎉  
+- Notifications on failure ❌  
+
+---
+
+### 🔐 Authentication & Security
+- Authentication powered by **Clerk**  
+- Secure API & session handling  
+
+---
+
+### ⚙️ Backend & Infrastructure
+- REST API with **Node.js & Express**  
+- Background jobs using **Inngest**  
+- Data fetching & caching via **TanStack Query**  
+- PR analysis & code optimization using **CodeRabbit**
+
+---
+
+### 🚀 DevOps & Deployment
+- Git & GitHub workflow (branches, PRs, merges)  
+- Deployment on **Sevalla** (free-tier friendly)
+
+---
+
+## 🧱 Tech Stack
+
+| Layer        | Technology |
+|-------------|-----------|
+| Frontend    | React + Vite |
+| Backend     | Node.js + Express |
+| Database    | MongoDB |
+| Auth        | Clerk |
+| Video/Chat  | Stream |
+| Jobs        | Inngest |
+| Data Fetch  | TanStack Query |
+
+---
+
+## 🧪 Environment Setup
+
+### 🔹 Backend (`/backend`)
 
 ```bash
 PORT=3000
